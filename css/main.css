@@ -60,10 +60,17 @@
     margin-bottom: 15px;
 }
 
+.hours_subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+}
 #video {
     margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
+    
 }
 
 #video>iframe {
@@ -86,17 +93,19 @@
     width: calc(100% / 3);
     margin: 10px;
     border: 1px solid var(--a-link-color);
-    border-radius: 3px;
+    border-radius: 20px;
     background-color: var( --grid-bg-color);
 }
 
 .product>.level {
-    background-color: #ddd;
-    color: var(--a-link-color);
+    background-color: var(--grid-bg-extra-color);
+    color: var(--grid-title-color);
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .product>h2 {

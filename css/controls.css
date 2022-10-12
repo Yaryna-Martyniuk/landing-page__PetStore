@@ -21,4 +21,5 @@
 .product>button:hover {
     background-color: var(--btn-hover-color);
     transition: background-color 1s;
+    color:var(--grid-bg-color)
 }

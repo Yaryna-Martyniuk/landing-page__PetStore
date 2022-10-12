@@ -9,11 +9,14 @@
 :root {
     --background-color: #ffffff;
     --grid-bg-color: #ede9e9;
+    --grid-bg-extra-color: #4c2a2a;
+    --grid-title-color: #c1b3b3;
     --btn-color: #958996;
-    --btn-hover-color: #623b66;
-    --a-link-color:#6c6565;
-    --prices-text:#764141;
-    --dark-color:#000000;
+    --btn-hover-color: #542c58;
+    --a-link-color: #5f5e5e;
+    --footer-text-color: #2a2727;
+    --prices-text: #764141;
+    --dark-color: #000000;
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,7 +29,6 @@ li {
 }
 
 a {
-    color:var(--a-link-color);
     text-decoration: none;
 }
 
