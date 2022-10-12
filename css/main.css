@@ -1,3 +1,7 @@
+.container {
+    background-image: url(../img/pet-people-main.jpg);
+}
+
 .email {
     display: flex;
     flex-direction: column;
@@ -11,7 +15,9 @@
 .email>h2 {
     margin-bottom: 20px;
     word-wrap: break-word;
+    font-family: 'Averia Libre', cursive;
 }
+
 
 .email input[type='email'] {
     max-width: 275px;
@@ -46,11 +52,16 @@
     justify-content: center;
     text-align: center;
     height: 200px;
-    margin-top: 50px;
+    margin-top:40px;
+    font-family: 'Averia Libre', cursive;
+}
+
+.hours_title {
+    margin-bottom: 15px;
 }
 
 #video {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -76,6 +87,7 @@
     margin: 10px;
     border: 1px solid #000;
     border-radius: 3px;
+    background-color: var( --grid-bg-color);
 }
 
 .product>.level {
@@ -95,7 +107,7 @@
     min-height: auto;
     width: 282px;
     display: flex;
-    border-radius: 12% ;
+    border-radius: 12%;
 }
 
 .product>button {
