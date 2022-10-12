@@ -85,14 +85,14 @@
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid var(--a-link-color);
     border-radius: 3px;
     background-color: var( --grid-bg-color);
 }
 
 .product>.level {
     background-color: #ddd;
-    color: black;
+    color: var(--a-link-color);
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -101,6 +101,8 @@
 
 .product>h2 {
     margin-top: 15px;
+    margin-bottom: 10px;
+    color: var(--prices-text);
 }
 
 .product>img {
@@ -108,18 +110,6 @@
     width: 282px;
     display: flex;
     border-radius: 12%;
-}
-
-.product>button {
-    border: 0;
-    margin: 15px 0;
-    background-color: var(--btn-color);
-    font-weight: 400;
-}
-
-.product>button:hover {
-    background-color: var(--btn-hover-color);
-    transition: background-color 1s;
 }
 
 @media (max-width: 800px) {
