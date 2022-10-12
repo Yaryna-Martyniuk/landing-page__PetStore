@@ -39,7 +39,15 @@
     }
 }
 
-
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
 
 #video {
     margin-top: 50px;
@@ -84,9 +92,10 @@
 }
 
 .product>img {
-   min-height: 1000px;
-   width: 1080px;
-   display: flex;
+    min-height: auto;
+    width: 282px;
+    display: flex;
+    border-radius: 12% ;
 }
 
 .product>button {
