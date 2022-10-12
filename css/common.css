@@ -7,7 +7,9 @@
 }
 
 :root {
-    background-color: #eee;
+    --background-color: #d3c9d4;
+    --btn-color: #958996;
+    --btn-hover-color: #623b66;
     font-family: 'Lato', sans-serif;
 }
 

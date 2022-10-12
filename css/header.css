@@ -6,7 +6,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #eee;
+    background-color: var(--background-color);
 }
 
 @media (max-width: 600px) {
