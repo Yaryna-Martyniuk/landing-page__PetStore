@@ -89,8 +89,7 @@ nav>ul {
     display: inline-block;
     padding: 5px 0;
     position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: var(--a-link-color);
+    color: var(--a-link-color);
     transition: all 0.3s ease-in-out;
 }
 
@@ -118,4 +117,20 @@ a:hover::before {
     nav>ul {
         flex-direction: column;
     }
+}
+
+.navbar {
+    margin-top: 0;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.navbar>.container {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background-color:var(--nav-toggler-color);
 }

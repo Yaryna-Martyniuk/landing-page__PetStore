@@ -1,5 +1,7 @@
-.container {
+.container_main {
     background-image: url(../img/pet-people-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .email {
