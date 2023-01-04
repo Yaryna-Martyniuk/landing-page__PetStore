@@ -60,6 +60,7 @@
 
 .hours_title {
     margin-bottom: 15px;
+    margin-top: 70px;
 }
 
 .hours_subtitle {
@@ -127,6 +128,7 @@
 @media (max-width: 800px) {
     #pricing {
         flex-direction: column;
+        margin-top: 90px;
     }
 
     .product {
